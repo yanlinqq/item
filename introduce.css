@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color:#000;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+input , textarea , buttn{
+    border: none;
+    outline: none;
+}
+/*导航开始*/
+.nav{
+    width: 100%;
+    height: 79px;
+    background: rgba(0,0,0,0.15);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.nav .navbar{
+    width: 1170px;
+    height: 79px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav .navbar a{
+    display: flex;
+    width: 150px;
+    height: 79px;
+    align-items: center;
+}
+.nav .navbar a img{
+    width: 150px;
+    height: 50px;
+}
+.nav .navbar ul{
+    width: 516px;
+    height: 79px;
+    display: flex;
+}
+.nav .navbar ul li{
+    width: 86px;
+    height: 79px;
+}
+.nav .navbar ul li a{
+    width: 86px;
+    height: 79px;
+    color: #ffffff !important;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+.nav .navbar ul li:hover a{
+    color: #16b0dc !important;
+}
+/*导航结束*/
+/*<!--第一部分图片开始-->*/
+.picture img{
+    width: 100%;
+    height: 531px;
+}
+/*<!--第一部分图片结束-->*/
+/*介绍开始*/
+.title{
+    width: 100%;
+    height: 780px;
+    padding: 30px;
+}
+.title .one{
+    width: 100%;
+    height: 32px;
+    margin: 32px auto 30px;
+    text-align: center;
+    line-height: 32px;
+    color: #4B4B4B;
+}
+.title span{
+    display: block;
+    width: 100%;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    color: #4B4B4B;
+}
+.title .map img{
+    display: block;
+    width: 530px;
+    height: 340px;
+    margin: 50px auto 0;
+}
+/*介绍结束*/
+/*底部开始*/
+footer{
+    width: 100%;
+    height: 182px;
+    background: #F5F5F3;
+}
+footer .one{
+    width: 134px;
+    height: 56px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto 0;
+}
+footer .one a{
+    width: 30px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+}
+footer .one a .icon-weixin{
+    font-size: 30px;
+    color: #83B944;
+}
+footer .one a .icon-qq2{
+    font-size: 26px;
+    color: #6AA8E1;
+}
+footer .one a .icon-youjian{
+    font-size: 26px;
+    color: #6AA8E1;
+}
+footer p{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 11px;
+    color: #757575;
+}
+footer p a{
+    color: #6AA8E1;
+}
+/*底部结束*/

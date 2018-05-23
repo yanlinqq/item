@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color:#000;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+input , textarea , buttn{
+    border: none;
+    outline: none;
+}
+/*导航开始*/
+.nav{
+    width: 100%;
+    height: 79px;
+    background: #ffffff;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.nav .navbar{
+    width: 1170px;
+    height: 79px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav .navbar a{
+    display: flex;
+    width: 150px;
+    height: 79px;
+    align-items: center;
+}
+.nav .navbar a img{
+    width: 150px;
+    height: 50px;
+}
+.nav .navbar ul{
+    width: 516px;
+    height: 79px;
+    display: flex;
+}
+.nav .navbar ul li{
+    width: 86px;
+    height: 79px;
+}
+.nav .navbar ul li a{
+    width: 86px;
+    height: 79px;
+    color: #000000 !important;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+.nav .navbar ul li:hover a{
+    color: #16b0dc !important;
+}
+/*导航结束*/
+/*<!--第一部分开始-->*/
+h1{
+    width: 100%;
+    height: 120px;
+    background: #F1F1F1;
+    color: #F67A82;
+    font-size: 36px;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 79px;
+}
+/*<!--第一部分结束-->*/
+/*<!--第二部分开始-->*/
+section{
+    width: 100%;
+    height: 2182px;
+    background: #F1F1F1;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+section .left{
+    width: 877px;
+    height: 2121px;
+    background: #ffffff;
+    padding: 30px;
+}
+section .left ul{
+    width: 817px;
+    height: 2010px;
+    margin-bottom: 11px;
+}
+section .left ul li{
+    width: 817px;
+    height: 221px;
+    margin-bottom: 30px;
+    display: flex;
+    border-bottom: 1px solid #f0f2f5;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+section .left ul li .medialeft{
+    width: 180px;
+    height: 176px;
+    display: block;
+}
+section .left ul li .medialeft img{
+    width: 160px;
+    height: 160px;
+}
+section .left ul li .mediaright{
+    width: 637px;
+    height: 200px;
+}
+section .left ul li .mediaright a{
+    width: 637px;
+    height: 26px;
+    font-size: 26px;
+    display: block;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+section .left ul li .mediaright a:hover{
+    color: #16b0dc;
+}
+section .left ul li .mediaright p{
+    width: 637px;
+    height: 96px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #76838f;
+    line-height: 24px;
+    font-weight: 400;
+}
+section .left ul li .mediaright span{
+    width: 637px;
+    height: 24px;
+}
+section .left ul li .mediaright .sleft{
+    width: 150px;
+    height: 24px;
+    font-size: 16px;
+    color: #76838f;
+    line-height: 24px;
+    float: left;
+    font-weight: 300;
+}
+section .left ul li .mediaright i{
+    width: 16px;
+    height: 24px;
+    font-size: 20px;
+    color: #9EA7AE;
+    float: left;
+    margin-left: 13px;
+    margin-right: 5px;
+    line-height: 24px;
+}
+section .left ul li .mediaright .sright{
+    width: 20px;
+    height: 24px;
+    font-size: 18px;
+    color: #76838f;
+    line-height: 24px;
+    float: left;
+}
+section .left .bottom{
+    width: 100%;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+}
+section .left .bottom .first{
+    width: 74px;
+    height: 39px;
+    display: block;
+    font-size: 18px;
+    line-height: 39px;
+    text-align: center;
+    color: #9EA7AE;
+    border: 1px solid #9EA7AE;
+}
+section .left .bottom a:nth-child(4){
+    border-left: 0;
+}
+section .left .bottom .aa:hover{
+    background: #76838f;
+}
+section .left .bottom .dd:hover{
+    background: #76838f;
+}
+section .left .bottom .bb:hover{
+    background: red;
+}
+section .left .bottom .cc:hover{
+    background: red;
+}
+section .left .bottom .second{
+    width: 39px;
+    height: 39px;
+    display: block;
+    font-size: 18px;
+    line-height: 39px;
+    text-align: center;
+    color: #9EA7AE;
+    border: 1px solid #9EA7AE;
+    border-left: 0;
+}
+section .right{
+    width: 292px;
+    height: 354px;
+    background: #ffffff;
+    padding: 20px 20px;
+    margin-left: 30px;
+}
+section .right input{
+    width: 222px;
+    height: 36px;
+    background: #ffffff;
+    border-radius: 400px;
+    margin: 0 auto 20px;
+    padding: 6px 15px;
+    display: block;
+    border: 0.5px solid #e4eaec;
+    position: relative;
+}
+section .right input:hover{
+    border: 1px solid #6AA8E1;
+}
+section .right h3{
+    width: 222px;
+    height: 52px;
+    margin: 0 auto;
+    border-top: 1px solid #F0F2F5;
+    line-height: 52px;
+    font-size: 20px;
+    color: #585B62;
+    font-weight: 300;
+}
+section .right .san{
+    width: 222px;
+    height: 132px;
+    margin: 0 auto 20px;
+}
+section .right .san .one{
+    display: block;
+    width: 222px;
+    height: 44px;
+    box-sizing: border-box;
+    border: 1px solid #F0F2F5;
+    color: #333333;
+    font-size: 14px;
+    line-height: 44px;
+    text-align: center;
+}
+section .right .san .one:hover{
+    color: #6AA8E1;
+}
+section .right .san .one:nth-child(1){
+    border-bottom: 0;
+}
+section .right .san .one:nth-child(2){
+    border-bottom: 0;
+}
+section .right .tit{
+    display: block;
+    width: 222px;
+    height: 70px;
+    margin: 0 auto;
+    border-top: 1px solid #F0F2F5;
+    line-height: 70px;
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+}
+section .right .tit:hover{
+    color: #6AA8E1;
+}
+section .right .search{
+    display: block;
+    width: 40px;
+    height: 36px;
+    position: absolute;
+    top: 248px;
+    right: 113px;
+    line-height: 36px;
+    text-align: center;
+}
+section .right a i{
+    font-size: 16px;
+}
+/*<!--第二部分结束-->*/
+/*中间白条开始*/
+.tex{
+    width: 100%;
+    height: 10px;
+}
+/*中间白条结束*/
+/*底部开始*/
+footer{
+    width: 100%;
+    height: 182px;
+    background: #F5F5F3;
+}
+footer .one{
+    width: 134px;
+    height: 56px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto 0;
+}
+footer .one a{
+    width: 30px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+}
+footer .one a .icon-weixin{
+    font-size: 30px;
+    color: #83B944;
+}
+footer .one a .icon-qq2{
+    font-size: 26px;
+    color: #6AA8E1;
+}
+footer .one a .icon-youjian{
+    font-size: 26px;
+    color: #6AA8E1;
+}
+footer p{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 11px;
+    color: #757575;
+}
+footer p a{
+    color: #6AA8E1;
+}
+/*底部结束*/

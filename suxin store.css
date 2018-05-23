@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color:#000;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+input , textarea , buttn{
+    border: none;
+    outline: none;
+}
+/*导航开始*/
+.nav{
+    width: 100%;
+    height: 79px;
+    background: #ffffff;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.nav .navbar{
+    width: 1170px;
+    height: 79px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav .navbar a{
+    display: flex;
+    width: 150px;
+    height: 79px;
+    align-items: center;
+}
+.nav .navbar a img{
+    width: 150px;
+    height: 50px;
+}
+.nav .navbar ul{
+    width: 516px;
+    height: 79px;
+    display: flex;
+}
+.nav .navbar ul li{
+    width: 86px;
+    height: 79px;
+}
+.nav .navbar ul li a{
+    width: 86px;
+    height: 79px;
+    color: #000000 !important;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+.nav .navbar ul li:hover a{
+    color: #16b0dc !important;
+}
+/*导航结束*/
+/*<!--第一部分开始-->*/
+h1{
+    width: 100%;
+    height: 120px;
+    background: #F1F1F1;
+    color: #F67A82;
+    font-size: 36px;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 79px;
+}
+/*<!--第一部分结束-->*/
+/*第二部分开始*/
+.search{
+    width: 100%;
+    height: 52px;
+    background: #F86867;
+    position: relative;
+}
+.search input{
+    width: 292px;
+    height: 36px;
+    background: #ffffff;
+    padding: 6px 15px;
+    border-radius: 800px;
+    margin-top: 8px;
+    margin-left: 90px;
+    color: #76838f;
+    font-size: 14px;
+    line-height: 36px;
+    border: 1px solid #9EA7AE;
+}
+::-webkit-input-placeholder{
+    color: #e0e0e0;
+}
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+.search input:hover{
+    border: 2px solid #6AA8E1;
+}
+.search a{
+    width: 40px;
+    height: 36px;
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 346px;
+}
+.search a i{
+    font-size: 16px;
+    color: #515248;
+    text-align: center;
+    line-height: 36px;
+}
+/*第二部分结束*/
+/*第三部分开始*/
+.picture{
+    width: 100%;
+    height: 580px;
+    background: #F2F2F2;
+    padding: 15px;
+}
+.picture img{
+    width: 25%;
+    height: 248px;
+    float: left;
+    position: relative;
+}
+/*.picture .one{*/
+    /*width: 25%;*/
+    /*height: 248px;*/
+    /*float: left;*/
+    /*position: absolute;*/
+    /*left: 15px;*/
+    /*top: 266px;*/
+    /*background: rgba(0,0,0,0.2);*/
+    /*line-height: 248px;*/
+    /*text-align: center;*/
+    /*color: #ffffff;*/
+    /*font-size: 28px;*/
+    /*display: none;*/
+/*}*/
+.picture .bottom{
+    width: 100%;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 0;
+}
+.picture .bottom .first{
+    width: 74px;
+    height: 39px;
+    display: block;
+    font-size: 18px;
+    line-height: 39px;
+    text-align: center;
+    color: #9EA7AE;
+    border: 1px solid #9EA7AE;
+}
+.picture .bottom a:nth-child(4){
+    border-left: 0;
+}
+.picture .bottom .aa:hover{
+    background: #76838f;
+}
+.picture .bottom .dd:hover{
+    background: #76838f;
+}
+.picture .bottom .bb:hover{
+    background: red;
+}
+.picture .bottom .cc:hover{
+    background: red;
+}
+.picture .bottom .second{
+    width: 39px;
+    height: 39px;
+    display: block;
+    font-size: 18px;
+    line-height: 39px;
+    text-align: center;
+    color: #9EA7AE;
+    border: 1px solid #9EA7AE;
+    border-left: 0;
+}
+/*第三部分结束*/
+/*中间白条开始*/
+.tex{
+    width: 100%;
+    height: 10px;
+}
+/*中间白条结束*/
+/*底部开始*/
+footer{
+    width: 100%;
+    height: 182px;
+    background: #F5F5F3;
+}
+footer .one{
+    width: 134px;
+    height: 56px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto 0;
+}
+footer .one a{
+    width: 30px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+}
+footer .one a .icon-weixin{
+    font-size: 30px;
+    color: #83B944;
+}
+footer .one a .icon-qq2{
+    font-size: 26px;
+    color: #6AA8E1;
+}
+footer .one a .icon-youjian{
+    font-size: 26px;
+    color: #6AA8E1;
+}
+footer p{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 11px;
+    color: #757575;
+}
+footer p a{
+    color: #6AA8E1;
+}
+/*底部结束*/
